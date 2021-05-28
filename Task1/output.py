@@ -1,5 +1,7 @@
 import joblib
+print("**********************************************")
 name = input('Enter your name : ')
+print("********************************************")
 exp = float(input('Enter year of experience : '))
 model = joblib.load('Salary.pk1')
 print()
